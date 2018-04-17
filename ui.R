@@ -17,7 +17,7 @@ AD1 = AD[which(AD[,3]==1),] ;AD2 = AD[which(AD[,3]==2),]
 #########################ui開始##############################
 library(shiny)
 
-navbarPage(title = h4(strong('中醫預防醫學健康管理模式發展評估計畫',style = "font-family:Microsoft JhengHei")),style = "font-family:Microsoft JhengHei",
+navbarPage(title = h4(strong('中醫預防醫學健康管理模式發展評估計畫',style = "font-family:Microsoft JhengHei")),
     tabPanel(h5('前測',style = "font-family:Microsoft JhengHei"),style = "font-family:Microsoft JhengHei",
              fluidRow(
              column(2,checkboxGroupInput("BD_vars", "選取欄位",
